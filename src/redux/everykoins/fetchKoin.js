@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const API = 'api.coincap.io/v2/assets';
+const API = 'https://api.coincap.io/v2/assets';
 
 const initialState = {
   standardFlow: [],
@@ -9,7 +9,16 @@ const initialState = {
 export const flowChart = createAsyncThunk('fetchkoin/flowchart', async () => {
   const response = await fetch(API);
   const res = await response.json();
-  return res;
+  const info = res.data;
+  info.map((item) => ({
+    id: item.id,
+    rank: item.rank,
+    symbol: item.symbol,
+    name: item.name,
+    price: item.priceUsd,
+    supply: item.supply,
+  }));
+  return info;
 });
 
 const myChoice = createSlice({
