@@ -1,28 +1,25 @@
 import React from 'react';
-import PropTypes from 'prop-types'; 
+import PropTypes from 'prop-types';
 
-const koin = () => ({
+const Coin = ({
   name, image, price,
 }) => (
-
-<div className="koin">
+  <div className="coin">
     <img src={image} alt="crypto" />
-    <div className="lastkoin">
+    <div className="lastcoin">
       <h3>{name}</h3>
-      <p className="koin-price">
+      <p className="coin-price">
         $
         {price}
       </p>
     </div>
   </div>
-
 );
 
-koin.propTypes = {
+Coin.propTypes = {
   name: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
   image: PropTypes.string.isRequired,
 };
 
-
-export default koin;
+export default Coin;
