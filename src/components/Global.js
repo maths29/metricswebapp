@@ -19,7 +19,7 @@ const Global = () => {
         <p>
           {global}
           {' '}
-          currencies
+          Currencies
         </p>
       </div>
 

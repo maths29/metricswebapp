@@ -96,7 +96,7 @@ p {
 
 .cointop {
   height: 2.5rem;
-  background: burlywood;
+  background: rgb(237, 182, 110);
   color: white;
   display: flex;
   align-items: center;
