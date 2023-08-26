@@ -55,7 +55,7 @@ p {
 }
 
 .coin-link {
-  background: whitesmoke;
+  background: rgb(145, 2, 248);
   display: flex;
   flex-direction: row;
   height: 15vh;
@@ -68,11 +68,26 @@ p {
   justify-content: flex-start;
   padding: 38px;
   border-bottom: 0.7px solid #fff;
+  position: relative; /* Added for positioning arrows */
 }
 
+/* New styles for category name and value */
 .coin h3,
 p {
   margin: 0;
+  position: absolute;
+  bottom: 10px;
+  right: 28px;
+  text-align: right;
+  padding: 10px;
+}
+
+/* New style for right arrow */
+.arrow {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.2rem;
 }
 
 .lastcoin {
