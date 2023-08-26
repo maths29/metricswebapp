@@ -42,6 +42,8 @@
 
 - [Live Demo Link](https://cryptocurrencymetrics.onrender.com)
 
+- [presentation video Link](https://www.loom.com/share/52030cd256414d75ab8d2a86311d82b1)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
