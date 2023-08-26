@@ -1,110 +1,36 @@
 <a name="readme-top"></a>
+# :CRYPTOCURRENCY: Table of Contents
+- [:List:CRYPTOCURRENCY](#-Awesome-a-nameabout-projecta)
+  - [:hammer_and_wrench: Built With ](#-built-with-a-namebuilt-witha)
+    - [Tech Stack ](#tech-stack-a-nametech-stacka)
+    - [Key Features ](#key-features-a-namekey-featuresa)
+  - [:computer: Getting Started ](#-getting-started-a-namegetting-starteda)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [:busts_in_silhouette: Authors ](#-authors-a-nameauthorsa)
+  - [:telescope: Future Features ](#-future-features-a-namefuture-featuresa)
+  - [:star:️ Show your support ](#️-show-your-support-a-namesupporta)
+  - [:handshake: Contributing ](#-contributing-a-namecontributinga)
+  - [:pray: Acknowledgments ](#-acknowledgments-a-nameacknowledgementsa)
+  - [:memo: License ](#-license-a-namelicensea)
 
-<!--
-!!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
-
-You should modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
-
-For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
-# 📗 Table of Contents
-
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 [your_project_name] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
-
-## 🛠 Built With <a name="built-with"></a>
-
+   # :book: CRYPTOCURRENCY <a name="about-project"></a>
+  - This project lay the foundations for a Cryptocurrency website.It is a sophisticated platform for users to access comprehensive information regarding the leading 30 cryptocurrencies.
+## :hammer_and_wrench: Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
+- HTML
+- CSS
+- JAVASCRIPT
+- React
+- Redux
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+ ### Key Features <a name="key-features"></a>
+ -  Setting up User-Friendly List Display and Filtering
+ -  Implementing API Integration and Data Display
+ -  Creating Test Cases for Application Reliability
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,50 +81,25 @@ Example commands:
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+npm install
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+npm start
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+npm test
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+npm run build
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,17 +109,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **iwu John chinonso**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/maths29)
+- Twitter: [@twitterhandle](https://twitter.com/maths29)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/iwu-john-b92b01148/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -228,9 +123,10 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ]  **[Best crypto market deals]**
+- [ ] **[Crypto Market Cap Details]**
+- [ ] **[More coins details will be available]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,7 +136,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/maths29/metricswebapp/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -250,7 +146,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project...give a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,9 +154,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I want to appreciate Nelson Sakwa (Behance) for providing the design of this project under Creative Commons License.
 
-I would like to thank...
+I would like to thank Microverse for this opportunity
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
