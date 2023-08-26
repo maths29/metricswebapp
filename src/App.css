@@ -72,13 +72,13 @@ p {
 }
 
 /* New styles for category name and value */
-.coin h3{
-display: block;
-
+.coin h3 {
+  display: block;
 }
 
 .coin p {
   margin: 0;
+
   /* position: absolute; */
   bottom: 10px;
   right: 33px;
@@ -87,6 +87,7 @@ display: block;
 }
 
 /* New style for right arrow */
+
 /* .arrow {
   position: absolute;
   top: 1px;
