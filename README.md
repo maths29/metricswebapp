@@ -81,50 +81,25 @@ Example commands:
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+npm install
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+npm start
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+npm test
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+npm run build
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,12 +115,6 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/maths29)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/iwu-john-b92b01148/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -154,9 +123,10 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ]  **[Best crypto market deals]**
+- [ ] **[Crypto Market Cap Details]**
+- [ ] **[More coins details will be available]**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,7 +146,7 @@ Feel free to check the [issues page](https://github.com/maths29/metricswebapp/is
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project...give a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,9 +154,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+I want to appreciate Nelson Sakwa (Behance) for providing the design of this project under Creative Commons License.
 
-I would like to thank...
+I would like to thank Microverse for this opportunity
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
