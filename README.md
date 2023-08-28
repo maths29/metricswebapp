@@ -1,70 +1,172 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+# :CRYPTOCURRENCY: Table of Contents
+- [:List:CRYPTOCURRENCY](#-Awesome-a-nameabout-projecta)
+  - [:hammer_and_wrench: Built With ](#-built-with-a-namebuilt-witha)
+    - [Tech Stack ](#tech-stack-a-nametech-stacka)
+    - [Key Features ](#key-features-a-namekey-featuresa)
+  - [:computer: Getting Started ](#-getting-started-a-namegetting-starteda)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [:busts_in_silhouette: Authors ](#-authors-a-nameauthorsa)
+  - [:telescope: Future Features ](#-future-features-a-namefuture-featuresa)
+  - [:star:️ Show your support ](#️-show-your-support-a-namesupporta)
+  - [:handshake: Contributing ](#-contributing-a-namecontributinga)
+  - [:pray: Acknowledgments ](#-acknowledgments-a-nameacknowledgementsa)
+  - [:memo: License ](#-license-a-namelicensea)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+   # :book: CRYPTOCURRENCY <a name="about-project"></a>
+  - This project lay the foundations for a Cryptocurrency website.It is a sophisticated platform for users to access comprehensive information regarding the leading 30 cryptocurrencies.
+## :hammer_and_wrench: Built With <a name="built-with"></a>
+### Tech Stack <a name="tech-stack"></a>
+- HTML
+- CSS
+- JAVASCRIPT
+- React
+- Redux
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Available Scripts
+ ### Key Features <a name="key-features"></a>
+ -  Setting up User-Friendly List Display and Filtering
+ -  Implementing API Integration and Data Display
+ -  Creating Test Cases for Application Reliability
 
-In the project directory, you can run:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm start`
+<!-- LIVE DEMO -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Live Demo Link](https://cryptocurrencymetrics.onrender.com)
 
-### `npm run build`
+- [presentation video Link](https://www.loom.com/share/b35777115ee041deac0377abc3cfba0f)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- GETTING STARTED -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Getting Started <a name="getting-started"></a>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To get a local copy up and running, follow these steps.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In order to run this project you need:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!--
+Example command:
 
-## Learn More
+```sh
+ gem install rails
+```
+ -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone this repository to your desired folder:
 
-### Code Splitting
+<!--
+Example commands:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
 
-### Analyzing the Bundle Size
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install this project with:
 
-### Making a Progressive Web App
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Usage
 
-### Advanced Configuration
+To run the project, execute the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm start
+
+### Run tests
+
+To run tests, run the following command:
+
+npm test
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
 
-### `npm run build` fails to minify
+npm run build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+
+👤 **iwu John chinonso**
+
+- GitHub: [@githubhandle](https://github.com/maths29)
+- Twitter: [@twitterhandle](https://twitter.com/maths29)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/iwu-john-b92b01148/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ]  **[Best crypto market deals]**
+- [ ] **[Crypto Market Cap Details]**
+- [ ] **[More coins details will be available]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/maths29/metricswebapp/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+
+If you like this project...give a star
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I want to appreciate Nelson Sakwa (Behance) for providing the design of this project under Creative Commons License.
+
+I would like to thank Microverse for this opportunity
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

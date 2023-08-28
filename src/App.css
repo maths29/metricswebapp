@@ -1,38 +1,220 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lato:wght@700&display=swap');
+
+* {
+  font-family: 'Cabin', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.slide {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  gap: 1rem;
+  background: #760357ae;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+  padding: 5%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.slide h4,
+p {
+  margin: 0;
+}
+
+.active-crypto {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-logo {
+  width: 35%;
+  opacity: 0.4;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar {
+  background: rgb(62, 2, 118);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  padding: 1% 3%;
+}
+
+.coin-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.coin-link {
+  background: rgb(145, 2, 248);
+  display: flex;
+  flex-direction: row;
+  height: 15vh;
+  border: 0;
+  align-items: center;
+  outline: 0;
+  text-decoration: none;
+  color: #fff;
+  font-size: 10px;
+  justify-content: flex-start;
+  padding: 38px;
+  border-bottom: 0.7px solid #fff;
+  position: relative; /* Added for positioning arrows */
+}
+
+/* New styles for category name and value */
+.coin h3 {
+  display: block;
+}
+
+.coin p {
+  margin: 0;
+
+  /* position: absolute; */
+  bottom: 10px;
+  right: 33px;
+  text-align: right;
+  padding: 10px;
+}
+
+/* New style for right arrow */
+
+/* .arrow {
+  position: absolute;
+  top: 1px;
+  right: 10px;
+  font-size: 1.2rem;
+} */
+
+.lastcoin {
+  text-align: right;
+}
+
+.coin img {
+  width: 7rem;
+  margin: 5%;
+}
+
+.coin-link:nth-child(4n+3),
+.coin-link:nth-child(4n+2) {
+  background: #f8629e;
+}
+
+.lastmenu {
+  display: flex;
+  gap: 1rem;
+}
+
+.cointop {
+  height: 2.5rem;
+  background: rgb(237, 182, 110);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 2%;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.search-bar {
+  background: #f8629e;
+  display: flex;
+  justify-content: center;
+  margin-top: -2px;
+}
+
+.search {
+  margin: 3% 0;
+  width: 85%;
+  height: 2.5rem;
+  border: 0;
+  outline: 0;
+  padding: 0 4%;
+  font-size: 1rem;
+  border-radius: 50px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .coin-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-  to {
-    transform: rotate(360deg);
+
+  .coin img {
+    width: 8rem;
+  }
+
+  .lastmenu {
+    gap: 2rem;
+  }
+
+  .lastcoin {
+    text-align: center;
+  }
+
+  .cointop {
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+
+  .slide {
+    height: 35vh;
+    gap: 4rem;
+  }
+
+  .main-logo {
+    width: 20%;
+  }
+
+  .coin h3 {
+    font-size: 1.5rem;
+  }
+
+  .coin p {
+    font-size: 1.2rem;
+  }
+
+  .coin-link {
+    height: 25vh;
+    align-items: center;
+    text-align: center;
+    border: 0.5px solid rgb(74, 56, 61);
+    background: #f8629e;
+  }
+
+  .coin-link:nth-child(even) {
+    background: #f8629e;
+  }
+
+  .slide h4 {
+    font-size: 2.5rem;
+  }
+
+  .slide p {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    height: 5rem;
+    font-size: 1.5rem;
+  }
+
+  .search {
+    width: 40%;
+    height: 3rem;
+    margin: 0;
+  }
+
+  .search-bar {
+    height: 4rem;
   }
 }
